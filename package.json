@@ -1,0 +1,10 @@
+{
+  "name": "LMS_freelancer",
+  "version": "1.0.0",
+  "description": "a project for freelancer's client",
+  "main": "index.js",
+  "repository": "https://github.com/Ahmed-farag36/LMS_freelancer_project.git",
+  "author": "4EGA",
+  "license": "MIT",
+  "private": true
+}
