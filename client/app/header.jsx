@@ -3,7 +3,7 @@ import { BsPencil, BsGrid3X3GapFill } from "react-icons/bs";
 
 export default function Header() {
 	return (
-		<header className="navbar absolute bg-base-100">
+		<header className="navbar bg-base-100">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -66,7 +66,7 @@ export default function Header() {
 				<Link href="" className="hidden lg:inline">
 					<h6 className="flex items-center gap-2">
 						<BsGrid3X3GapFill />
-						Courses
+						Course
 					</h6>
 				</Link>
 			</div>
