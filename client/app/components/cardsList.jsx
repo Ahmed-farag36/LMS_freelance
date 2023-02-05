@@ -7,8 +7,9 @@ export default function CardsList({
 	iconBgColor,
 }) {
 	return (
-		<Link href="" className={`grid gap-2 ${grid}`}>
+		<div className={`grid gap-2 md:${grid}`}>
 			{list.map((c, i) => (
+				<Link href="">
 				<div
 					key={i}
 					className={`card ${cardsType} bg-base-100 shadow-md rounded-md mt-4 px-4 items-center`}
@@ -22,7 +23,6 @@ export default function CardsList({
 							{c.icon}
 						</figure>
 					)}
-
 					<div className={`card-body ${!cardsType && "items-center"}`}>
 						<h3 className="card-title">
 							{c.title}
@@ -33,7 +33,8 @@ export default function CardsList({
 						<p className="text-sm p-0">{c.sub}</p>
 					</div>
 				</div>
+				</Link>
 			))}
-		</Link>
+		</div>
 	);
 }
